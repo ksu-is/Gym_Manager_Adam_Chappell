@@ -16,24 +16,24 @@ Sprint 1
 
 Sprint 2
 
-- [] Evaluate changes that need to be made 
+- [ ] Evaluate changes that need to be made 
 
-- [] make changes 
+- [ ] make changes 
 
-- [] create web interface with Flask
+- [ ] create web interface with Flask
 
-- [] update project roadmap as issues arrise
+- [ ] update project roadmap as issues arrise
 
 Sprint 3 
 
-- [] fisish coding 
+- [ ] fisish coding 
 
-- [] QA project
+- [ ] QA project
 
-- [] create Powerpoint
+- [ ] create Powerpoint
   
-- [] get time to present
+- [ ] get time to present
   
-- [] prepare to present 
+- [ ] prepare to present 
 
 - [] Presnt and finish the project 
