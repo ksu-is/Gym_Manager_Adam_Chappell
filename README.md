@@ -1,8 +1,11 @@
 # Gym_Manager_Adam_Chappell
  Python Final Project 
+
  Gym Management System
+
 Overview
-The Gym Management System is a Python-based program designed to help gym owners and staff manage memberships, track attendance, and generate reports for key performance indicators (KPIs). It supports three types of users: Member, Staff, and Manager, each with different levels of access and capabilities. This system can be used to add and remove memberships, publish and track attendance for fitness classes and weightlifting competitions, and generate reports on gym performance.
+
+ The Gym Management System is a Python-based program designed to help gym owners and staff manage memberships, track attendance, and generate reports for key performance indicators (KPIs). It supports three types of users: Member, Staff, and Manager, each with different levels of access and capabilities. This system can be used to add and remove memberships, publish and track attendance for fitness classes and weightlifting competitions, and generate reports on gym performance.
 
 Features
 >User Roles:
