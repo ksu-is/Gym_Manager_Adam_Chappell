@@ -36,4 +36,6 @@ Sprint 3
   
 - [ ] prepare to present 
 
-- [ ] Presnt and finish the project 
+- [ ] Presnt and finish the project
+
+Similar Project repo: https://github.com/EswarGitHub/GymManagementSystem
