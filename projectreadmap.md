@@ -16,13 +16,13 @@ Sprint 1
 
 Sprint 2
 
-- [ ] Evaluate changes that need to be made 
+- [ x] Evaluate changes that need to be made 
 
-- [ ] make changes 
+- [x] make changes 
 
 - [ ] create web interface with Flask
 
-- [ ] update project roadmap as issues arrise
+- [ x] update project roadmap as issues arrise
 
 Sprint 3 
 
