@@ -87,6 +87,39 @@ class User:
 class Staff(User):
     def __init__(self, username):
         super().__init__(username, 'staff')
+      def add_class(self, gym, class_name, class_time):
+        """Staff can add a class to the schedule."""
+        gym.add_class(class_name, class_time, self)
+
+    def view_classes(self, gym):
+        """Staff can view all upcoming classes."""
+        gym.view_classes()
+
+    def manage_roster(self, gym, class_index, action, customer_username=None):
+        """Manage the class roster (add/remove customers)."""
+        if action not in ['add', 'remove']:
+            print("Invalid action. Use 'add' or 'remove'.")
+            return
+
+        if class_index < 1 or class_index > len(gym.classes):
+            print("Invalid class index.")
+            return
+        
+        class_to_manage = gym.classes[class_index - 1]
+
+        if action == 'add':
+            if customer_username:
+                class_to_manage["roster"].append(customer_username)
+                print(f"{customer_username} added to {class_to_manage['class_name']} roster.")
+            else:
+                print("Please provide a valid customer username.")
+        
+        elif action == 'remove':
+            if customer_username and customer_username in class_to_manage["roster"]:
+                class_to_manage["roster"].remove(customer_username)
+                print(f"{customer_username} removed from {class_to_manage['class_name']} roster.")
+            else:
+                print(f"{customer_username} not found in the class roster.")
 
 
 class Manager(User):
